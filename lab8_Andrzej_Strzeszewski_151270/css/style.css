@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0 0 0 0;
+    padding: 0;
+    background-color: gray;
+}
+
+
+.main_page {
+    background-color: gray;
+    color: black;
+    text-align: center;
+}
+
+img {
+    width: 50vw;
+    height: 50vh;
+    float: right;
+}
+
+.nav__list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 60px;
+    list-style-type: none;
+    text-align: center;
+    background-color: gray;
+}
+
+
+a:visited {
+    color: black;
+}
+a:link {
+    color: black;
+}
+
+a:hover {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+#slider-img{
+    float:none;
+}
+
+#error-img{
+    float:none;
+}
